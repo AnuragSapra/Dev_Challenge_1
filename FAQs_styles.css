@@ -5,30 +5,31 @@
     font-size: 40px;
     margin-bottom: 0px;
 }
-body{
+section{
     background-color: rgb(245, 250, 252);
-    height: 100%;
 }
 header{
     text-align: center;
     padding: 30px 0px;
-    background-color: white;
 }
 div{
-    line-height: 1.8;
+    line-height: 2;
 }
 div.block1{
-    padding: 20px 20px 0px 20px;
+    padding: 30px 20px 0px 20px;
     text-align: left;
     width: 45%;
-    margin: 10px auto 0;
+    margin: 10px auto 10px;
 }
-.divider{
-    border-top: 1px solid #ccc;
-    width: 45%;
-    align-self: center;
-    margin: 0 auto;
+hr {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border: none;
+  height: 2px;
+  background-color: lightgray;
+  width: 45%;
 }
+
 div.block2{
     padding: 0px 20px 20px;
     text-align: left;
@@ -45,6 +46,9 @@ ul,ol{
 }
 a:link{
     text-decoration: none;
+}
+.sub-title{
+    padding-bottom: 27px;
 }
 @media screen and (max-width: 640px) {
     .container{
